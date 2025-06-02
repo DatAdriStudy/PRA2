@@ -13,7 +13,7 @@ st.set_page_config(page_title="Anàlisi Amazon Índia", layout="wide")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("amazon.csv")
+    df = pd.read_csv("amazon (1).csv")
 
     def clean_price(price_str):
         if isinstance(price_str, str):
